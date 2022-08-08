@@ -9,7 +9,6 @@ import SwiftUI
 
 struct CartView: View {
     @ObservedObject var viewModel: CartViewModel
-    @ObservedObject var router: Router
     
     var body: some View {
         VStack {
